@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlPackageClrTest", "SqlPackageClrTest\SqlPackageClrTest.sqlproj", "{E925322C-20C4-4D60-992B-D1E16229048C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DacFxDeploy", "DacFxDeploy\DacFxDeploy.csproj", "{BB845BD9-82EE-4AAF-B927-BFB258DFFDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E925322C-20C4-4D60-992B-D1E16229048C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BB845BD9-82EE-4AAF-B927-BFB258DFFDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB845BD9-82EE-4AAF-B927-BFB258DFFDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB845BD9-82EE-4AAF-B927-BFB258DFFDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB845BD9-82EE-4AAF-B927-BFB258DFFDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50859FCA-0BC1-412D-8602-988F8C3AAE5C}
+	EndGlobalSection
+EndGlobal
